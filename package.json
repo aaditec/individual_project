@@ -1,0 +1,37 @@
+{
+  "name": "tourist_backend",
+  "version": "1.0.0",
+  "description": "this is my backend file",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test":"jest --coverage"
+  },
+  "author": "roshan gautam",
+  "license": "ISC",
+  "dependencies": {
+    "@shelf/jest-mongodb": "1.2.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jest": "^26.6.3",
+    "jshint": "^2.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "supertest": "6.1.3"
+    
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwarica-github/t2---backend-api-aaditec.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/softwarica-github/t2---backend-api-aaditec/issues"
+  },
+  "homepage": "https://github.com/softwarica-github/t2---backend-api-aaditec#readme"
+}
