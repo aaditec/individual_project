@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/intelligent_tourist_guide',{
+mongoose.connect('mongodb://127.0.0.1:27017/foodorderapp',{
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
